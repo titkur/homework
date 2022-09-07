@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TradingPlaces.Infrastructure\TradingPlaces.Infrastructure.csproj" />
+    <ProjectReference Include="..\TradingPlaces.Repositories\TradingPlaces.Repositories.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Reutberg">
+      <HintPath>..\Resources\Reutberg.dll</HintPath>
+    </Reference>
+    <Reference Include="TradingPlaces.Resources">
+      <HintPath>..\Resources\TradingPlaces.Resources.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
